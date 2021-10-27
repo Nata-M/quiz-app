@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div id='container' class="container">
+        <div id="question-container" class="question-container hide">
+          <div id="question" class="question">Question Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate aperiam soluta ea tempora eveniet corrupti in laudantium quo perferendis, suscipit mollitia, neque doloremque expedita error explicabo libero veritatis optio sapiente?</div>
+          <div id="answers-container" class="answers-container">
+          </div>
+        </div>
+          <button id="next-btn" class="next-btn btn hide">Next</button>
+          <div class='display-flex'>
+            <div id='result' class='result'></div>
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="result-btn" class="start-btn btn hide">Your Result</button>
+            <button id='correct' class='correct-answers hide'>Correct Answers</button>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
