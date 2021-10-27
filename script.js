@@ -97,6 +97,8 @@ function selectAnswer(e) {
             startButton.innerText = "Restart";
             startButton.classList.remove("hide");
             startButton.addEventListener("click", restartGame);
+            answerButtonsElement.classList.add('hide');
+            questionElement.classList.add('hide');
             // correctAnswers.classList.remove("hide");
         });
     }
