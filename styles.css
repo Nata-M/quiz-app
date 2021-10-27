@@ -90,6 +90,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: rgb(22, 190, 30);
     font-size: 20px;
+    margin-right: 30px;
 }
 .display-flex {
     display: flex;
@@ -144,6 +145,5 @@ body {
     }
     .display-flex {
         width: 100%;
-        /* justify-content: space-between; */
     }
 }
